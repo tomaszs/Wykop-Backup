@@ -9,9 +9,6 @@ function getPosts() {
     imageNode = post.getElementsByClassName('media-content')[0];
     voteNode = post.getElementsByClassName('vC');
     
-    //console.log('----')
-    //console.log(imageNode == null ? "null" : imageNode.getAttribute('src'));
-      
     id = post.getAttribute('data-id');
     time = timeNode.getAttribute('datetime');
     
